@@ -1,0 +1,26 @@
+<!-- <script src="cal.js"></script> -->
+<script>
+  
+
+  var x, y;
+  var sign = prompt("Enter the math operator you want to perform");
+  x = prompt("Enter your first number");
+  y = prompt("Enter your second number?");
+
+  var sum = Number(x) + Number(y);
+  var difference = Number(x) - Number(y);
+  var product = Number(x) * Number(y);
+  var division = Number(x) / Number(y);
+
+  if (sign == "+") {
+    alert("Your answer is " + sum + "");
+  } else if (sign == "-") {
+    alert("Your answer is " + difference + "");
+  } else if (sign == "*") {
+    alert("Your answer is " + product + "");
+  } else if (sign == "/") {
+    alert("Your answer is " + division + "");
+  } else {
+    alert("Sorry, you cannot perform that calculation");
+  }
+</script>
